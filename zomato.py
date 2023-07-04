@@ -73,7 +73,7 @@ def update_order_status(order_id):
     if order_id in orders:
 
         currentStatus = orders[order_id]["status"]
-        print("Current availability Status :", currentStatus)
+        print("Current Status :", currentStatus)
         print()
         updatedStatus = input("Enter new status : ").lower()
         
